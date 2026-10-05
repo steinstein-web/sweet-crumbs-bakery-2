@@ -1,627 +1,504 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,50:0f172a,100:0e7490&text=SYNEXORA&fontSize=64&fontColor=67e8f9&animation=fadeIn&fontAlignY=38&desc=Smart%20Inventory%20%26%20Sales%20Intelligence%20Platform&descSize=18&descAlignY=62" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:451a03,50:78350f,100:f59e0b&text=SWEETCRUMBS&fontSize=56&fontColor=fff7ed&animation=fadeIn&fontAlignY=38&desc=Bakery%20Website%20%E2%80%A2%20Class%20Web%20Development%20Project&descSize=17&descAlignY=62" width="100%"/>
 
 <a href="#">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=850&lines=Know+your+stock.;Understand+your+sales.;See+what+is+changing.;Make+better+business+decisions." alt="Synexora animated tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=FBBF24&center=true&vCenter=true&width=800&lines=Freshly+Baked+Happiness+Every+Day.;A+simple+bakery+experience+built+with+HTML.;Learning+the+foundations+of+web+development.;From+classroom+concept+to+working+website." alt="SweetCrumbs animated typing"/>
 </a>
 
 <br>
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)](#)
-[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge\&logo=node.js\&logoColor=white)](#)
-[![Express](https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge\&logo=express\&logoColor=white)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)](#)
-[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-UI-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)](#)
-
-<br>
-
-**A modern business intelligence system designed to help SMEs understand their inventory, sales performance, and operational signals from one place.**
+![HTML](https://img.shields.io/badge/HTML5-Foundation-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-CLASS%20PROJECT-F59E0B?style=for-the-badge)
+![Project Type](https://img.shields.io/badge/TYPE-FRONTEND%20WEBSITE-78350F?style=for-the-badge)
 
 </div>
 
 ---
 
-# ⚡ SYNEXORA
+# 🍞 SweetCrumbs Bakery
 
-> **Smart Inventory & Sales Intelligence Platform for SMEs**
+> **Freshly Baked Happiness Every Day**
 
-Small and medium-sized businesses often have the data they need to make better decisions — but that data is scattered across spreadsheets, notebooks, point-of-sale records, and disconnected workflows.
+**SweetCrumbs Bakery** is a bakery-themed website created as a **class web development project**.
 
-**Synexora** brings inventory and sales information into a centralized system, turning day-to-day business activity into clearer operational visibility.
+The project was designed to demonstrate fundamental website development concepts by creating a complete bakery business website with structured content, navigation, product information, promotional offers, customer testimonials, contact functionality, and location information.
 
-Instead of simply recording what happened, Synexora is designed to help answer:
-
-```text
-What do we have?
-        ↓
-What are we selling?
-        ↓
-What is changing?
-        ↓
-What might happen next?
-        ↓
-What should the business pay attention to?
-```
+Rather than focusing on advanced frameworks, this project focuses on understanding the **fundamentals of building a web page from scratch**.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:22d3ee,50:6366f1,100:06b6d4" width="90%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:F59E0B,50:FB923C,100:FBBF24" width="85%"/>
 
 </div>
 
-# 🎯 The Problem
+# 🎯 Project Objective
 
-Many SMEs still manage important business operations through fragmented or manual processes.
+The main objective of this class project was to create a simple but complete website for a fictional bakery while applying fundamental HTML concepts.
 
-This can make it difficult to quickly answer questions such as:
-
-* Which products are running low?
-* How much inventory does the business currently hold?
-* How are sales changing over time?
-* Which products, customers, or channels are contributing most?
-* Is revenue improving or declining?
-* What trends deserve management attention?
-
-The result is often:
-
-**fragmented information → slower analysis → weaker decisions → avoidable operational inefficiency**
-
----
-
-# 💡 The Solution
-
-Synexora provides a centralized environment for managing and interpreting core business information.
-
-### Core flow
+The website demonstrates how a real-world business could structure its online presence around:
 
 ```text
-                  ┌───────────────────┐
-                  │   BUSINESS DATA   │
-                  └─────────┬─────────┘
-                            │
-              ┌─────────────┴─────────────┐
-              │                           │
-        INVENTORY DATA                SALES DATA
-              │                           │
-              └─────────────┬─────────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │     SYNEXORA      │
-                  │ Intelligence Layer│
-                  └─────────┬─────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          ▼                 ▼                 ▼
-      DASHBOARDS         ANALYTICS        REPORTS
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            ▼
-                  BETTER BUSINESS DECISIONS
+BUSINESS
+   ↓
+CONTENT
+   ↓
+PRODUCTS
+   ↓
+PROMOTIONS
+   ↓
+CUSTOMER EXPERIENCE
+   ↓
+CONTACT
 ```
 
 ---
 
-# ✨ Core Features
+# 🏠 Website Sections
 
-## 📦 Inventory Management
+The website is organized into several sections that represent the major parts of a typical small-business website.
 
-Manage products and maintain visibility over stock information.
+### 🏡 Home
 
-**Capabilities include:**
+The landing area introduces SweetCrumbs Bakery with its main message and calls to action for viewing the menu and placing an order.
 
-* Add products
-* Search products
-* Filter products
-* View total products
-* Monitor stock levels
-* Track inventory value
-* Identify low-stock situations
-* View units available
+### 📖 About
 
----
+Provides information about the bakery, its background, mission, locally sourced ingredients, and customer-focused approach.
 
-## 💰 Sales Management
+### 🍰 Menu
 
-Record business sales in a structured workflow.
+Displays bakery products with:
 
-```text
-CREATE SALE
-    ↓
-REVIEW DETAILS
-    ↓
-CONFIRM SALE
-    ↓
-UPDATE BUSINESS DATA
-    ↓
-REFLECT IN ANALYTICS
-```
+* Product names
+* Descriptions
+* Prices
+* Availability
 
-This creates a more consistent relationship between operational activity and business reporting.
+### 🎉 Specials
 
----
+Highlights promotional offers such as:
 
-## 📊 Business Dashboard
+* Monday Croissant Deal
+* Wednesday Cupcake Combo
+* Friday Cake Friday
 
-The dashboard is designed to provide an immediate view of the state of the business.
+### 🖼️ Gallery
 
-### Example KPI categories
+Provides a visual-style product showcase using bakery-themed representations including croissants, bread, cupcakes, donuts, cookies, and cakes.
 
-| Metric               | Purpose                                |
-| -------------------- | -------------------------------------- |
-| 📦 Total Products    | Understand catalog size                |
-| 📉 Low Stock         | Identify inventory requiring attention |
-| 💵 Inventory Value   | Monitor stock value                    |
-| 📈 Sales Performance | Track business movement                |
-| 🧮 Units Sold        | Understand transaction volume          |
-| 🚀 Growth Signals    | Highlight notable changes              |
+### ⭐ Testimonials
 
----
+Contains fictional customer feedback demonstrating how testimonials can be incorporated into a business website.
 
-# 🧠 Intelligence Layer
+### 📩 Contact
 
-Synexora goes beyond basic CRUD operations by organizing business data into useful analytical signals.
-
-The intelligence layer is designed around:
-
-### 📈 Revenue Movement
-
-Understand how revenue changes across time.
-
-### 📅 Monthly Sales
-
-Compare sales performance across different periods.
-
-### 👥 Customer Mix
-
-Understand how different customer groups contribute to sales.
-
-### 🌐 Channel Mix
-
-Identify how sales are distributed across business channels.
-
-### 🔮 Forecasting
-
-Use historical business information to provide forward-looking sales indications.
-
-### 🚀 Growth Signals
-
-Surface meaningful changes in business performance that may deserve attention.
-
-The goal is simple:
-
-> **Turn raw operational data into information that is easier to understand and act on.**
-
----
-
-# 📑 Report Center
-
-Synexora is designed to make business information easier to review and communicate.
-
-The reporting layer can organize information around:
+Provides business contact details and a contact form containing:
 
 ```text
-Inventory
-   │
-   ├── Stock Overview
-   ├── Low Stock
-   └── Inventory Value
-
-Sales
-   │
-   ├── Revenue Movement
-   ├── Monthly Performance
-   └── Sales Distribution
-
-Intelligence
-   │
-   ├── Forecasts
-   ├── Growth Signals
-   └── Business Insights
+Full Name
+Email Address
+Phone Number
+Inquiry Type
+Message
 ```
 
----
+### 📍 Location
 
-# 🖥️ Product Experience
-
-Synexora follows a modern SaaS-style interface focused on clarity rather than visual noise.
-
-### Design principles
-
-`Clean` · `Responsive` · `Data-focused` · `Readable` · `Action-oriented`
-
-The interface is designed around the idea that business users should be able to move from:
-
-**data → understanding → action**
-
-without navigating through unnecessary complexity.
+Provides the bakery's Nairobi location, physical address, directions, and a Google Maps link.
 
 ---
 
-# 🛠️ Technology Stack
+# 🧩 Website Structure
+
+The project follows a straightforward page structure:
+
+```text
+SweetCrumbs Bakery
+│
+├── Home
+│
+├── About
+│
+├── Menu
+│
+├── Specials
+│
+├── Gallery
+│
+├── Testimonials
+│
+├── Contact
+│
+└── Location
+```
+
+The navigation system connects the different sections through HTML anchor links, allowing users to move around the page without requiring multiple HTML pages.
+
+---
+
+# 🛠️ Technologies Used
 
 <div align="center">
 
-### Frontend
+<img src="https://skillicons.dev/icons?i=html&theme=dark" />
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,html,css&theme=dark" />
+<br><br>
 
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" />
-
-### Database
-
-<img src="https://skillicons.dev/icons?i=postgresql&theme=dark" />
-
-### Development & Deployment
-
-<img src="https://skillicons.dev/icons?i=git,github,postman,vercel&theme=dark" />
+![HTML](https://img.shields.io/badge/HTML5-Used%20for%20Structure-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 
 </div>
 
-### Stack overview
+### Core Technology
 
-| Layer               | Technology   |
-| ------------------- | ------------ |
-| Frontend            | React.js     |
-| Styling             | Tailwind CSS |
-| Backend             | Node.js      |
-| API Layer           | Express.js   |
-| Database            | PostgreSQL   |
-| API Testing         | Postman      |
-| Version Control     | Git & GitHub |
-| Frontend Deployment | Vercel       |
-| Backend Deployment  | Render       |
-| Design              | Figma        |
+**HTML5**
+
+The project primarily uses HTML to construct the entire interface, including:
+
+`Tables` · `Forms` · `Links` · `Headings` · `Paragraphs` · `Inputs` · `Select Menus` · `Text Formatting` · `Section Anchors`
+
+The implementation deliberately demonstrates foundational HTML techniques rather than depending on a frontend framework.
 
 ---
 
-# 🏗️ System Architecture
+# 🧱 HTML Concepts Demonstrated
+
+One of the main purposes of this project was learning how different HTML elements can be combined to create a complete website.
+
+### 📐 Layout
+
+The page uses HTML tables to organize major areas of the interface.
+
+### 🔗 Navigation
+
+Internal anchor links connect sections such as:
 
 ```text
-┌─────────────────────────────────────────────┐
-│                SYNEXORA UI                 │
-│             React + Tailwind               │
-└──────────────────────┬──────────────────────┘
-                       │
-                       │ REST API
-                       ▼
-┌─────────────────────────────────────────────┐
-│              APPLICATION API               │
-│          Node.js + Express.js              │
-│                                             │
-│  Products  •  Sales  •  Analytics  • Reports│
-└──────────────────────┬──────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────┐
-│                 PostgreSQL                 │
-│                                             │
-│ Products • Inventory • Sales • Analytics   │
-└─────────────────────────────────────────────┘
+#home
+#about
+#menu
+#specials
+#gallery
+#contact
 ```
+
+### 📝 Forms
+
+The contact section demonstrates form controls including text fields, email inputs, telephone inputs, dropdown selection, textarea input, submit buttons, and reset functionality.
+
+### 🏷️ Content Structure
+
+The page uses headings, paragraphs, tables, links and formatted text to organize the bakery's information.
 
 ---
 
-# 🔄 Business Intelligence Flow
+# 🍰 Menu Preview
+
+The bakery menu contains example products such as:
+
+| Product                   | Description                  |   Price |
+| ------------------------- | ---------------------------- | ------: |
+| 🥐 Butter Croissant       | Flaky French-style pastry    | KES 180 |
+| 🍫 Chocolate Cake         | Chocolate cake with frosting | KES 450 |
+| 🌀 Cinnamon Roll          | Cinnamon pastry with glaze   | KES 220 |
+| 🫐 Blueberry Muffin       | Muffin with blueberries      | KES 200 |
+| 🍞 Sourdough Bread        | Handcrafted bread            | KES 350 |
+| 🍩 Classic Donut          | Soft glazed donut            | KES 150 |
+| 🥧 Fruit Tart             | Fruit tart with cream        | KES 300 |
+| 🍪 Chocolate Chip Cookies | Cookies with chocolate chips | KES 100 |
+
+These products, prices, descriptions, and availability states are represented directly in the project.
+
+---
+
+# 🎨 Design Direction
+
+The project uses a warm bakery-inspired visual direction built around:
+
+`Brown` · `Pink` · `Gold` · `Cream` · `White`
+
+The design intentionally creates a friendly and approachable bakery atmosphere rather than a highly technical interface.
+
+The header presents the bakery name together with the tagline:
+
+> **Freshly Baked Happiness Every Day**
+
+The project also includes a top information bar containing Nairobi location information, a phone number, and operating hours.
+
+---
+
+# 🌐 Business Website Experience
+
+Although this was a classroom exercise, the project was structured around a real business scenario.
+
+The website attempts to cover the basic customer journey:
 
 ```text
-        ┌─────────────┐
-        │   Product   │
-        │   Records   │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │  Inventory  │
-        │   Activity  │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │    Sales    │
-        │   Records   │
-        └──────┬──────┘
-               │
-               ▼
-      ┌──────────────────┐
-      │ Data Aggregation │
-      └─────────┬────────┘
-                │
-       ┌────────┼────────┐
-       ▼        ▼        ▼
-    Trends   Forecasts  Signals
-       │        │        │
-       └────────┼────────┘
-                ▼
-       ┌─────────────────┐
-       │ Decision Support│
-       └─────────────────┘
+        DISCOVER
+           ↓
+        EXPLORE
+           ↓
+      VIEW PRODUCTS
+           ↓
+       SEE SPECIALS
+           ↓
+     BUILD INTEREST
+           ↓
+       CONTACT
+           ↓
+        VISIT / ORDER
 ```
+
+This helped connect the technical HTML implementation with a practical business use case.
 
 ---
 
-# 🚀 Getting Started
+# 📣 Promotions
 
-## Prerequisites
+The site includes promotional messaging to demonstrate how marketing content can be incorporated into a web page.
 
-Make sure you have installed:
+One example is:
 
-```bash
-Node.js
-npm
-PostgreSQL
-Git
+```text
+🎉 SWEET10
+10% OFF PASTRY ORDERS
 ```
+
+The project also includes separate weekly specials for Monday, Wednesday, and Friday.
 
 ---
 
-## 1. Clone the repository
+# 💬 Customer Experience Elements
 
-```bash
-git clone <YOUR-REPOSITORY-URL>
-cd Synexora
+The website includes fictional testimonials to demonstrate social proof and customer-focused content.
+
+It also provides several ways for a visitor to interact with the business:
+
+```text
+View Menu
+Order Today
+Send Message
+Clear Form
+View Location
 ```
+
+The contact form also supports different inquiry categories including general inquiries, orders, custom cake requests, feedback, and delivery questions.
 
 ---
 
-## 2. Install dependencies
+# 📍 Business Information
 
-### Frontend
+The project presents SweetCrumbs Bakery as a Nairobi-based bakery.
 
-```bash
-cd frontend
-npm install
+```text
+📍 Nairobi, Kenya
+📞 +254 712 345 678
+🕒 Monday - Saturday: 7:00 AM - 8:00 PM
 ```
 
-### Backend
-
-```bash
-cd ../backend
-npm install
-```
+The location section gives a fictional physical address around Nairobi CBD and provides a Google Maps link.
 
 ---
 
-## 3. Configure environment variables
+# 📚 What I Learned
 
-Create a `.env` file inside the backend directory.
+This project helped reinforce the fundamentals of web development, particularly:
 
-Example:
+### 01 — HTML Structure
 
-```env
-PORT=5000
-DATABASE_URL=your_postgresql_connection_string
-```
+Understanding how a webpage is constructed from individual HTML elements.
 
-Add any additional environment variables required by the project configuration.
+### 02 — Page Organization
+
+Learning how to divide a website into logical sections.
+
+### 03 — Navigation
+
+Using anchor links to connect different areas of a page.
+
+### 04 — Forms
+
+Understanding how different form controls are structured.
+
+### 05 — Business-Oriented Design
+
+Thinking beyond code and considering how a website represents a real business.
+
+### 06 — Content Presentation
+
+Learning how products, promotions, testimonials, and contact information can be organized for visitors.
 
 ---
 
-## 4. Start the backend
+# 🧪 Project Learning Journey
 
-```bash
-cd backend
-npm run dev
+This project represents an early stage in my web-development journey.
+
+```text
+LEARN HTML
+    ↓
+UNDERSTAND STRUCTURE
+    ↓
+BUILD A BUSINESS CONCEPT
+    ↓
+CREATE THE PAGE
+    ↓
+ORGANIZE CONTENT
+    ↓
+ADD INTERACTION
+    ↓
+REFLECT & IMPROVE
 ```
+
+The project is intentionally simple — its value is in demonstrating the **foundations on which more advanced web applications can later be built**.
 
 ---
 
-## 5. Start the frontend
+# 🚀 Possible Future Improvements
 
-Open another terminal:
+Since this was a foundational class project, there is plenty of room to evolve it beyond the original implementation.
 
-```bash
-cd frontend
-npm run dev
+### Future ideas
+
+```text
+SweetCrumbs v1
+│
+├── HTML Foundation              ✓
+├── Navigation                   ✓
+├── Menu                         ✓
+├── Contact Form                 ✓
+│
+▼
+SweetCrumbs v2
+│
+├── CSS Styling
+├── Responsive Design
+├── Product Images
+├── Better Accessibility
+└── Interactive Components
+│
+▼
+SweetCrumbs v3
+│
+├── JavaScript
+├── Shopping Cart
+├── Online Ordering
+├── Backend Integration
+└── Database
 ```
 
-The application should then be available through the local development URL shown by Vite.
+A future version could therefore evolve from a static HTML exercise into a complete bakery ordering platform.
+
+---
+
+# 🖥️ Project Snapshot
+
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════╗
+║          SWEETCRUMBS BAKERY                  ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║       🥐  FRESHLY BAKED HAPPINESS  🍞       ║
+║                                              ║
+║       HOME • ABOUT • MENU • SPECIALS         ║
+║       GALLERY • CONTACT • LOCATION           ║
+║                                              ║
+║       STATUS: CLASS PROJECT                 ║
+║       STACK: HTML                            ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+```
+
+</div>
 
 ---
 
 # 📂 Project Structure
 
-```text
-Synexora/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── ...
-│   │
-│   └── package.json
-│
-├── backend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   ├── config/
-│   └── ...
-│
-├── README.md
-└── ...
-```
-
-> Directory names may evolve as the project architecture develops.
-
----
-
-# 🧪 Development Approach
-
-Synexora is being developed with an **Agile-oriented approach**, allowing the system to evolve incrementally through planning, implementation, testing, feedback, and refinement.
+For the current project, the core website is represented by the HTML page:
 
 ```text
-PLAN
-  ↓
-DESIGN
-  ↓
-BUILD
-  ↓
-TEST
-  ↓
-REVIEW
-  ↓
-IMPROVE
-  ↺
+SweetCrumbs/
+│
+└── index.html
 ```
 
-This makes it easier to prioritize the most important business functionality first while keeping the architecture extensible.
+The uploaded implementation contains the complete bakery webpage in the HTML document.
 
 ---
 
-# 🧩 Project Goals
+# ▶️ Running the Project
 
-Synexora is designed around five major objectives:
+Because this is a static HTML project, no backend or package installation is required.
 
-### 01 — Centralize
+Clone the repository:
 
-Bring important inventory and sales information into one environment.
+```bash
+git clone <YOUR-REPOSITORY-URL>
+```
 
-### 02 — Simplify
-
-Reduce unnecessary complexity in everyday business processes.
-
-### 03 — Analyze
-
-Transform recorded business activity into meaningful metrics and trends.
-
-### 04 — Anticipate
-
-Use historical patterns to provide forward-looking insights.
-
-### 05 — Improve Decisions
-
-Help SMEs make more informed operational and business decisions.
-
----
-
-# 🔮 Future Roadmap
+Open the project folder and launch:
 
 ```text
-                    SYNEXORA ROADMAP
-
-V1
-│
-├── Product Management
-├── Inventory Tracking
-├── Sales Recording
-├── Dashboard
-├── Analytics
-├── Forecasting
-└── Report Center
-        │
-        ▼
-V2
-│
-├── Advanced Business Intelligence
-├── Automated Alerts
-├── Deeper Customer Insights
-├── Expanded Forecasting
-└── Custom Reports
-        │
-        ▼
-V3
-│
-├── Multi-business Support
-├── Role-based Access
-├── Mobile Experience
-├── Integrations
-└── Advanced Decision Support
+index.html
 ```
 
----
-
-# 📈 Why Synexora?
-
-Traditional inventory systems often focus on:
-
-> **"What is in the system?"**
-
-Synexora aims to move toward:
-
-> **"What is happening in the business, why does it matter, and what should we pay attention to?"**
-
-That shift — from simple record keeping toward **business intelligence and decision support** — is at the heart of the project.
+You can also open the HTML file directly in a modern web browser.
 
 ---
 
-# 🔐 Engineering Focus
+# 🎓 Academic Context
 
-The project is also intended to provide a foundation for stronger engineering practices as it evolves.
+**Project Type:** Class / Academic Web Development Project
 
-Areas of focus include:
+**Project Focus:** Fundamental HTML and business website development
 
-`API Design` · `Database Structure` · `Data Validation` · `Scalability` · `Maintainability` · `Security` · `Responsive UI` · `Deployment`
+**Concept:** Fictional bakery website for SweetCrumbs Bakery
+
+The purpose of the project was primarily educational — applying classroom concepts to a practical business scenario.
 
 ---
 
-# 📊 Product Vision
+# 🧠 From Classroom Project to Future Skills
+
+SweetCrumbs may be a simple project, but it represents an important part of the learning progression:
+
+```text
+HTML
+ ↓
+CSS
+ ↓
+JavaScript
+ ↓
+APIs
+ ↓
+Databases
+ ↓
+Full-Stack Applications
+ ↓
+Real Products
+```
+
+Projects like this provide the foundation for progressively more complex systems.
+
+---
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2500&pause=700&color=A5F3FC&center=true&vCenter=true&width=800&lines=Record+the+operation.;Understand+the+data.;Detect+the+signal.;Support+the+decision.;Build+smarter+businesses." alt="Synexora vision"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2300&pause=800&color=FBBF24&center=true&vCenter=true&width=700&lines=START+SIMPLE.;LEARN+THE+FOUNDATION.;BUILD+THE+NEXT+VERSION.;KEEP+ITERATING." alt="Footer animation"/>
 
-</div>
+<br><br>
 
-Synexora's long-term vision is to become a practical digital intelligence layer for SMEs — helping businesses move from fragmented operational data toward **clearer visibility, stronger analysis, and better decisions.**
+### 🍞 Learn. Build. Improve.
 
----
-
-# 👩‍💻 Project Context
-
-**Synexora: AI-Enhanced Inventory and Sales Intelligence Platform for SMEs**
-
-Academic project focused on applying **Business Information Technology**, software engineering, database management, systems analysis, and business intelligence principles to a real-world SME problem.
-
----
-
-# 📜 Status
-
-<div align="center">
-
-![Status](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-06b6d4?style=for-the-badge)
-![Build](https://img.shields.io/badge/BUILD-MVP%20FOCUSED-6366f1?style=for-the-badge)
-![Platform](https://img.shields.io/badge/PLATFORM-WEB-0f172a?style=for-the-badge)
-
-</div>
-
-> Synexora is an evolving project. Features, architecture, analytics capabilities, and deployment configuration may change as development continues.
-
----
-
-# 🤝 Contributing
-
-This project is currently being developed as a focused academic/product project.
-
-Feedback, ideas, design improvements, and technical suggestions are welcome as the platform evolves.
-
----
-
-# ⭐ Final Thought
-
-<div align="center">
-
-### **SEE THE DATA. UNDERSTAND THE SIGNAL. MAKE THE MOVE.**
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:06b6d4,50:6366f1,100:22d3ee" width="80%"/>
+**A small classroom project today can become the foundation for a much bigger product tomorrow.**
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=800&color=67E8F9&center=true&vCenter=true&width=650&lines=SYNEXORA+%E2%80%94+BUSINESS+INTELLIGENCE+FOR+SMEs.;FROM+OPERATIONS+TO+INSIGHT.;BUILDING+SMARTER+BUSINESS+SYSTEMS." alt="Synexora footer animation"/>
-
-<br><br>
-
-**Built with technology, business thinking, and a focus on practical impact.**
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0e7490,50:0f172a,100:020617&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:78350f,50:451a03,100:1c1917&section=footer" width="100%"/>
 
 </div>
